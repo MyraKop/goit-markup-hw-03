@@ -331,11 +331,11 @@ display: block;
 
 .footer {
     background: var(--navyblue);
+    padding: 100px 0;
 }
 
 .footer-container{
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+
 }
 
 .footer-logo {
@@ -346,6 +346,8 @@ display: block;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -359,22 +361,31 @@ display: block;
         line-height: 1.5;
         letter-spacing: 0.02em;
         width: 264px;
-        margin-top: 17.5px;
+       
 }
 
 
 /**-------------------------------------PORTFOLIO----------------------------------*/
 
+.portfolio{
+    padding-top: 96px;
+        padding-bottom: 120px;
+}
 
 .button-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-top: 96px;
     margin-bottom: 72px;
 }
 
 .button-item {
+    padding: 12px 24px;
+    border: 1px solid var(--cornflower);
+        background: var(--cloud);
+        cursor: pointer;
+        border-radius: 4px;
+
     
 }
 
@@ -387,16 +398,19 @@ display: block;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-            border: 1px solid var(--cornflower);
+        border: 1px solid var(--cornflower);
             background: var(--cloud);
             cursor: pointer;
             border-radius: 4px;
 }
 
-.button-text:hover, .button-text:focus{
-   color: var(--white);
+.button-item:hover, .button-text:hover, .button-item:focus, .button-text:focus{
+color: var(--white);
     background: var(--ocean);
+    border: 1px solid transparent;
 }
+
+
 
 .portfolio {
     background: #FFF;
