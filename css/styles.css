@@ -401,7 +401,7 @@ display: block;
             padding: 12px 24px;
 }
 
-.button-item:hover, .button-text:hover, .button-item:focus, .button-text:focus{
+.button-text:hover, .button-text:focus{
 color: var(--white);
     background: var(--ocean);
 }
