@@ -404,6 +404,7 @@ display: block;
 .button-text:hover, .button-text:focus{
 color: var(--white);
     background: var(--ocean);
+    border: 1px solid transparent;
 }
 
 
