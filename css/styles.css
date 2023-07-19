@@ -154,8 +154,7 @@ letter-spacing:0.02em;
 }
  
 .entry-container{
-        padding-top: 180px;
-        padding-bottom: 188px;
+
     
 }
   
@@ -210,8 +209,6 @@ letter-spacing:0.02em;
 }
 
 .content-item {
-    padding-top: 120px;
-    padding-bottom: 120px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -251,7 +248,6 @@ letter-spacing:0.02em;
 
 .action-list {
     display: flex;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -281,14 +277,12 @@ padding: 120px 0;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .team-list-container{
@@ -322,7 +316,6 @@ display: block;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-bottom: 32px;
 }
 
 /**-------------------------------------FOOTER----------------------------------*/
